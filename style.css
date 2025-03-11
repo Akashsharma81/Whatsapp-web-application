@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    scroll-behavior: smooth;
+    height: 100vh;
+    background-image: linear-gradient(rgb(132, 139, 236), rgb(1009,39,239));
+}
+.logo{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px purple;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}   
+h1{
+    display: block;
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#container{
+max-width: 750px;
+/* rgb(132, 139, 236) */
+/* background-image: linear-gradient(rgb(1009,39,239), rgb(132, 139, 236)); */
+box-shadow: 0 0 10px purple ;
+border-radius: 10px;
+margin: auto;
+height: 60vh;
+margin-bottom: 5px;
+padding: 0 25px 25px 25px;
+overflow-y: auto;
+scroll-behavior: smooth;
+
+}
+
+.typing-nav{
+    /* background-color: red; */
+    width: 100%;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    position: sticky;
+    top: 0;
+    border-bottom: 2px solid;
+    border-color: purple;
+    background-image: linear-gradient(rgb(1009,39,239),rgb(132, 139, 236));
+
+}
+#typing-status {
+    text-align: center;
+    font-style: italic;
+    color: white;
+    font-weight: bold;
+    padding-left: 20px;
+    
+}
+.message{
+background-color: rgba(243, 38, 243, 0.61);
+width: 24%;
+padding: 5px 10px;
+margin: 10px 12px;
+border: 2px solid;
+border-radius: 10px;
+}
+.left{
+float: left;
+width: auto;
+max-width: 300px;
+clear: both;
+}
+.right{
+    float: right;
+    width: auto;
+    max-width: 300px;
+    clear: both;
+}
+#send-container{
+display: block;
+text-align: center;
+margin: auto;
+max-width: 783px;
+width: 100%;
+
+}
+#messageinp{
+    height: 30px;
+    border: 1px solid;
+    outline: none;
+    width: 85%;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.btn{
+
+    border: 1px solid purple;
+    background-color: white;
+    height: 30px;
+    padding: 5px;
+    margin: 0;
+    margin-left: 0;
+
+}
+.btn:hover{
+    cursor: pointer;
+    color: black;
+    background-color: rgb(157, 71, 238);
+ 
+}

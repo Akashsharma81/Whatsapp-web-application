@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="js/client.js"></script>
+    <!-- <script defer src="http://localhost:8000/socket.io/socket.io.js"></script> -->
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@joeattardi/emoji-button@4.6.2/dist/emoji-button.min.js"></script>
+
+
+</head>
+
+<body>
+    <nav>
+        <img src="./logo.jpg" alt="whatsapp" class="logo">
+        <h1>Welcome to chat Application</h1>
+    </nav>
+    <div id="container">
+
+        <div class="typing-nav">
+            <div id="typing-status">typing</div>
+        </div>
+
+        <div class="message right">😊</div>
+        <div class="message left"> 😍</div>
+    </div>
+
+
+    <div class="send">
+        <form action="#" id="send-container">
+            <input type="text" name="messageinp" id="messageinp" placeholder="enter message here...">
+            <button id="emoji-btn" type="button">😊</button>
+            <input type="file" id="file-input" hidden>
+            <button id="file-btn" type="button">📎</button>
+            <button class="btn" type="submit">send</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
